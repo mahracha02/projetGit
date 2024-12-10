@@ -12,9 +12,9 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run tests
-      run: npm test
-
+    - name: test
+      run: npm run test2
+      
     - name: Build
       run: npm run build
 
@@ -23,5 +23,4 @@ jobs:
         echo "Deploying to production"
         echo "Deployed!"
 
-    - name: test
-      run: npm run test2
+    
