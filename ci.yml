@@ -22,3 +22,6 @@ jobs:
       run: |
         echo "Deploying to production"
         echo "Deployed!"
+
+    - name: test
+      run: npm run test2
